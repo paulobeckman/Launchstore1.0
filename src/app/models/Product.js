@@ -1,7 +1,7 @@
 const db = require('../../config/db')
 
 module.exports = {
-    create(data, ) {
+    create(data) {
         const query = `
             INSERT INTO products (
                 category_id,
