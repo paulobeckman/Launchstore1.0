@@ -3,7 +3,7 @@
 {% block content %}
 
 <section class="container form">
-    <form method= "POST" action= "/products">
+    <form method= "POST" action= "/products" enctype="multipart/form-data">
   
         <div class="header">
             <h3>Cadastrar Produto{{productId}}</h3>
@@ -18,4 +18,4 @@
     </form>
 </section>
 
-{% endblock content %}
+{% endblock content %} 
