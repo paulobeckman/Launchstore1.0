@@ -23,7 +23,7 @@ const PhotosUpload = {
         const { files: fileList } = event.target
         PhotosUpload.input = event.target
         
-        if (PhotosUpload.hasLimit(event)) return
+        if(PhotosUpload.hasLimit(event)) return
 
         Array.from(fileList).forEach(file => {
 
